@@ -1,0 +1,68 @@
+{
+  "training": {
+    "split": "Training",
+    "rows": 1296675,
+    "columns": 23,
+    "fraud": 7506,
+    "legitimate": 1289169,
+    "fraud_rate_pct": 0.5788651743883394,
+    "missing_cells": 0,
+    "exact_duplicate_rows": 0,
+    "duplicate_trans_num": 0,
+    "start": "2019-01-01 00:00:18",
+    "end": "2020-06-21 12:13:37",
+    "unique_cards": 983,
+    "unique_merchants": 693,
+    "unique_categories": 14
+  },
+  "test": {
+    "split": "Test",
+    "rows": 555719,
+    "columns": 23,
+    "fraud": 2145,
+    "legitimate": 553574,
+    "fraud_rate_pct": 0.3859864427885316,
+    "missing_cells": 0,
+    "exact_duplicate_rows": 0,
+    "duplicate_trans_num": 0,
+    "start": "2020-06-21 12:14:25",
+    "end": "2020-12-31 23:59:34",
+    "unique_cards": 924,
+    "unique_merchants": 693,
+    "unique_categories": 14
+  },
+  "total_rows": 1852394,
+  "total_fraud": 9651,
+  "overall_fraud_rate_pct": 0.5210014716091717,
+  "training_amount": {
+    "mean": 70.35103545607032,
+    "median": 47.52,
+    "q1": 9.65,
+    "q3": 83.14,
+    "p99": 545.9926000000002,
+    "max": 28948.9,
+    "iqr_upper_fence": 193.375,
+    "iqr_flag_count": 67290,
+    "iqr_flag_pct": 5.1894268031696456,
+    "fraud_mean": 531.3200919264589,
+    "fraud_median": 396.505,
+    "legit_mean": 67.6671098126002,
+    "legit_median": 47.28
+  },
+  "feature_checks": {
+    "distance_mean_legitimate_km": 76.11386096287035,
+    "distance_mean_fraud_km": 76.26843497318568,
+    "age_mean_legitimate": 45.48061968601479,
+    "age_mean_fraud": 48.289368505195846,
+    "highest_fraud_category": "shopping_net",
+    "highest_fraud_category_rate_pct": 1.7561485703740916,
+    "highest_fraud_hours": [
+      22,
+      23,
+      1,
+      0,
+      2,
+      3
+    ]
+  }
+}
