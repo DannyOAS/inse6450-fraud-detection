@@ -4,6 +4,11 @@ Milestone 1 repository for the Credit Card Fraud Detection project.
 
 ## Raw data
 
+This project uses the **Credit Card Transactions Fraud Detection** dataset published on Kaggle by Kartik Shenoy.
+
+Dataset:
+https://www.kaggle.com/datasets/kartik2112/fraud-detection
+
 Download the **Credit Card Transactions Fraud Detection** dataset and place:
 
 - `fraudTrain.csv`
@@ -11,7 +16,7 @@ Download the **Credit Card Transactions Fraud Detection** dataset and place:
 
 inside `data/raw/`.
 
-The raw CSV files are intentionally not committed to the repository because of their size.
+The raw CSV files are not committed to the repository because of their size.
 
 ## Setup
 
